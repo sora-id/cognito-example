@@ -46,6 +46,7 @@ app.get("/signin", async (req, res) => {
   });
   const json_result = await result.json();
   // In the real world, you should validate the token before parsing
+  console.log(json_result)
   res.send(JSON.parse(base64.decode(json_result["id_token"].split(".")[1])));
 });
 
