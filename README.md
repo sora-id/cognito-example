@@ -12,7 +12,7 @@
 2. Click "Identity providers" in the sidebar (under Federation).
 3. Click OpenID Connect.
 4. Fill in the following:
-  - Create a name for the provider (specifc to your project; we recommend "sora")
+  - Create a name for the provider (specific to your project; we recommend "sora")
   - Client ID and client secret (from Sora)
   - Leave the attributes request method set to `GET`
   - For Authorize scope, specify "openid"
