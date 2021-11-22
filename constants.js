@@ -11,4 +11,4 @@ export const client_secret = "<YOUR_CLIENT_SECRET>";
 export const auth_base_url = "<YOUR_BASE_URL>";
 
 // redirect url for signing in. Replace the base url if not running on localhost.
-export const redirect_uri = "https://ethan.soraid.com/signin"
+export const redirect_uri = "http://localhost:3000/signin"
